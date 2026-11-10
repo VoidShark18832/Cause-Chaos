@@ -5,16 +5,3 @@ html, body {
     height: 100%;
     overflow: hidden;
 }
-
-
-
-#upgradesButton {
-    background-color: #222;
-    border: 2px solid white;
-    color: white;
-    transition: border-color 0.2s;
-}
-
-.upgradesButton::hover {
-    border-color: red;
-}

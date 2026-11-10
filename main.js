@@ -14,6 +14,7 @@ function main() {
     upgradesButton = document.createElement("button");
     upgradesButton.id = "upgradesButton";
     upgradesButton.textContent = ">_   Upgrades";
+    upgradesButton.addEventListener('click', () => {mainGroup.style.backgroundColor = "blue";})
     titleDiv.appendChild(title);
     leftBar.appendChild(titleDiv);
     leftBar.appendChild(upgradesButton);
